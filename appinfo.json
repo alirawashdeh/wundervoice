@@ -1,0 +1,34 @@
+{
+    "appKeys": {
+        "KEY_CONFIGURED": 0,
+        "KEY_SUCCESS" :1,
+        "KEY_MESSAGE": 2,
+        "KEY_LIST": 3
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "Scrabosoft",
+    "longName": "WunderVoice",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+            "type": "png",
+            "name": "STAR",
+            "file": "star32.png"
+          }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "WunderVoice",
+    "targetPlatforms": [
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "a2ae5e8d-42b0-4f63-a967-b9fe6d1dfeaa",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
