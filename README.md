@@ -1,4 +1,4 @@
-# wundervoice
+# WunderVoice
 
 WunderVoice is a Pebble smartwatch app that allows you to quickly add items to a Wunderlist list using speech.
 
@@ -20,9 +20,9 @@ var config_url = 'https://wunderdictate.herokuapp.com';
 The easiest way to deploy your Pebble application is to sign up for a [CloudPebble](http://cloudpebble.com/) account. Make sure that the developer connection is running on your phone before deploying through CloudPebble.
 
 ```
-cd wundervoice
-pebble build
-pebble install --cloudpebble
+$ cd wundervoice
+$ pebble build
+$ pebble install --cloudpebble
 ```
 
 # Credits
