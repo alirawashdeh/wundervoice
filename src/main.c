@@ -145,7 +145,7 @@ static void dictation_session_callback(DictationSession *session, DictationSessi
     layer_add_child(window_layer, text_layer_get_layer(title_banner));
 
     // Draw text
-    s_text_layer = text_layer_create(GRect(5, 46, bounds.size.w - 10, 40));
+    s_text_layer = text_layer_create(GRect(10, 46, bounds.size.w - 20, 40));
     text_layer_set_text(s_text_layer, "Configuration Required");
     text_layer_set_font(s_text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD));
     text_layer_set_text_alignment(s_text_layer, GTextAlignmentCenter);
@@ -153,7 +153,7 @@ static void dictation_session_callback(DictationSession *session, DictationSessi
     layer_add_child(window_layer, text_layer_get_layer(s_text_layer));
 
     // Draw subtext
-    s_text_sublayer = text_layer_create(GRect(5, 86, bounds.size.w -10, bounds.size.h - 86));
+    s_text_sublayer = text_layer_create(GRect(10, 86, bounds.size.w -20, bounds.size.h - 86));
     text_layer_set_text(s_text_sublayer, "Open app settings on your phone to configure.");
     text_layer_set_font(s_text_sublayer, fonts_get_system_font(FONT_KEY_GOTHIC_18));
     text_layer_set_text_alignment(s_text_sublayer, GTextAlignmentCenter);
