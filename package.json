@@ -1,0 +1,46 @@
+{
+  "version": "1.2.0",
+  "author": "Scrabosoft",
+  "private": true,
+  "dependencies": {},
+  "keywords": [
+    "pebble-app"
+  ],
+  "pebble": {
+    "sdkVersion": "3",
+    "resources": {
+      "media": [
+        {
+          "type": "png",
+          "name": "STAR",
+          "file": "star32.png"
+        }
+      ]
+    },
+    "projectType": "native",
+    "uuid": "a2ae5e8d-42b0-4f63-a967-b9fe6d1dfeaa",
+    "messageKeys": {
+      "KEY_LIST": 3,
+      "KEY_SUCCESS": 1,
+      "KEY_MESSAGE": 2,
+      "KEY_CONFIGURED": 0
+    },
+    "enableMultiJS": false,
+    "displayName": "WunderVoice",
+    "watchapp": {
+      "onlyShownOnCommunication": false,
+      "hiddenApp": false,
+      "watchface": false
+    },
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "capabilities": [
+      "configurable"
+    ]
+  },
+  "name": "WunderVoice"
+}
