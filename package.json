@@ -33,7 +33,6 @@
       "watchface": false
     },
     "targetPlatforms": [
-      "aplite",
       "basalt",
       "chalk",
       "diorite"
